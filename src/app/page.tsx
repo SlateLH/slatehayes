@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="w-1/2 mx-auto flex flex-col items-center pt-8">
+    <main className="w-1/2 mx-auto flex flex-col items-center my-8 p-8 rounded-lg shadow-lg">
         <div className="w-full flex items-center justify-between border-b-4 pb-1">
           <div className="flex flex-col">
             <h1 className="text-4xl font-bold bg-gradient-to-br from-indigo-600 to-sky-400 bg-clip-text text-transparent">
@@ -103,31 +103,64 @@ export default function Home() {
               <span className="text-sm font-semibold">
                 Summer Software Engineer Intern
               </span>
+              <ul className="list-disc ml-5">
+                <li>Created a reusable performance indicator component on the Supply Chain team with React and Ruby on Rails</li>
+              </ul>
             </div>
           </div>
         </div>
-        <div className="w-full flex justify-between gap-8 pt-8">
-          <div className="w-1/2 flex flex-col">
-            <div className="flex items-center gap-1 border-b-4">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-                <path fillRule="evenodd" d="M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143Z" clipRule="evenodd" />
-              </svg>
-              <h3 className="text-xl font-bold">
-                Skills
-              </h3>
+        <div className="w-full flex flex-col pt-8">
+          <div className="flex items-center gap-1 border-b-4">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+              <path d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
+              <path d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
+              <path d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
+            </svg>
+            <h3 className="text-xl font-bold">
+              Education
+            </h3>
+          </div>
+          <div className="flex flex-col gap-4">
+            <div>
+              <div className="flex justify-between pt-2">
+                <div className="flex items-center gap-2">
+                  <h4 className="font-bold">
+                    Missouri State University
+                  </h4>
+                  <span className="text-sm">
+                    Springfield, MO, USA
+                  </span>
+                </div>
+                August 2015 - December 2018
+              </div>
+              <div className="flex items-center gap-2 text-sm">
+                <span className="font-semibold">
+                  Computer Science
+                </span>
+                <span>
+                  Mathematics
+                </span>
+                <span>
+                  3.96 GPA
+                </span>
+              </div>
+              <ul className="list-disc ml-5">
+                <li>Association of Computing Machinery</li>
+                <li>Kappa Mu Epsilon Mathematics Honor Society</li>
+                <li>Courses in Data Structures, Algorithms, Databases, Networking, Data Mining, Mobile Apps, Graphics, Parallel and Distributed Computing, Artificial Intelligence</li>
+                <li>Created a computer vision IoT middleware service for final project</li>
+              </ul>
             </div>
           </div>
-          <div className="w-1/2 flex flex-col">
-            <div className="flex items-center gap-1 border-b-4">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-                <path d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
-                <path d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
-                <path d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
-              </svg>
-              <h3 className="text-xl font-bold">
-                Education
-              </h3>
-            </div>
+        </div>
+        <div className="w-full flex flex-col pt-8">
+          <div className="flex items-center gap-1 border-b-4">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+              <path fillRule="evenodd" d="M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143Z" clipRule="evenodd" />
+            </svg>
+            <h3 className="text-xl font-bold">
+              Skills
+            </h3>
           </div>
         </div>
     </main>

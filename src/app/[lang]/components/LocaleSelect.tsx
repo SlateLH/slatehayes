@@ -13,7 +13,9 @@ export function LocaleSelect({ lang }: { lang: Locale}) {
   return (
     <select defaultValue={lang} onChange={onLocaleChange}>
       {i18n.locales.map((locale) => (
-        <option value={locale}>{`${locale.toUpperCase()} ${getEmoji(locale)}`}</option>
+        <option key={locale} value={locale}>
+          {`${locale.toUpperCase()} ${getEmoji(locale)}`}
+        </option>
       ))}
     </select>
   );

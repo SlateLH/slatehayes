@@ -1,0 +1,34 @@
+{
+  "brazil": "Brasil",
+  "usa": "EUA",
+  "page": {
+    "home": {
+      "header": {
+        "jobTitle": "Engenheiro de Software"
+      },
+      "subheader": {
+        "phone": "Telefone"
+      },
+      "workExperience": {
+        "title": "Experiência Profissional"
+      },
+      "education": {
+        "title": "Educação"
+      },
+      "skills": {
+        "title": "Habilidades",
+        "languages": "Idiomas",
+        "english": "Inglês",
+        "portuguese": "Português",
+        "native": "Nativo"
+      },
+      "misc": {
+        "february": "Fevereiro",
+        "may": "Maio",
+        "august": "Agosto",
+        "december": "Dezembro"
+      }
+    }
+  }
+}
+  

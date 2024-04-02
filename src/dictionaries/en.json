@@ -1,0 +1,33 @@
+{
+  "brazil": "Brazil",
+  "usa": "USA",
+  "page": {
+    "home": {
+      "header": {
+        "jobTitle": "Software Engineer"
+      },
+      "subheader": {
+        "phone": "Phone"
+      },
+      "workExperience": {
+        "title": "Work Experience"
+      },
+      "education": {
+        "title": "Education"
+      },
+      "skills": {
+        "title": "Skills",
+        "languages": "Languages",
+        "english": "English",
+        "portuguese": "Portuguese",
+        "native": "Native"
+      },
+      "misc": {
+        "february": "February",
+        "may": "May",
+        "august": "August",
+        "december": "December"
+      }
+    }
+  }
+}

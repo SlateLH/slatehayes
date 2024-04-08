@@ -17,10 +17,16 @@
       },
       "skills": {
         "title": "Habilidades",
-        "languages": "Idiomas",
+        "native": "Nativo",
+        "advanced": "Avançado",
+        "proficient": "Proficiente",
+        "spokenLanguages": "Idiomas",
         "english": "Inglês",
         "portuguese": "Português",
-        "native": "Nativo"
+        "programmingLanguages": "Linguagens de programação",
+        "concepts": "Conceitos",
+        "frameworks": "Frameworks",
+        "tools": "Ferramentas"
       },
       "misc": {
         "february": "Fevereiro",

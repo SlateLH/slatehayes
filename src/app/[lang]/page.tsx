@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { i18n, type Locale } from "@/i18n.config";
+import { type Locale } from "@/i18n.config";
 import { getDictionary } from "@/lib/dictionary";
 import { LocaleSelect } from "./components/LocaleSelect";
 
@@ -102,6 +102,26 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                 <span className="text-sm font-semibold">
                   Associate Senior Software Engineer
                 </span>
+                <div className="flex flex-col ml-4 mt-2">
+                  <div className="flex gap-2">
+                    <span className="font-semibold">Scheduling</span>
+                    <span>January 2020 - December 2023</span>
+                  </div>
+                  <ul className="list-disc ml-5">
+                    <li>Mentored new hires in the DevAcademy program</li>
+                  </ul>
+                </div>
+                <div className="flex flex-col ml-4 mt-2">
+                  <div className="flex gap-2">
+                    <span className="font-semibold">Production Engineering</span>
+                    <span>April 2019 - December 2019</span>
+                  </div>
+                  <ul className="list-disc ml-5">
+                    <li>Worked alongside support team to investigate and correct client issues and defects</li>
+                    <li>Led package releases for break-fixes to correct defects and patch-backs to deliver enhancements to clients on older and legacy code levels</li>
+                    <li>Investigated a critical defect affecting many clients and released a solution as well as cleanup scripts in client domains</li>
+                  </ul>
+                </div>
               </div>
               <div>
                 <div className="flex justify-between pt-2">
@@ -177,12 +197,12 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                 {dictionary.page.home.skills.title}
               </h3>
             </div>
-            <div className="flex flex-col gap-4 pt-2">
-              <div className="flex items-center gap-2">
+            <div className="flex flex-col gap-8 pt-2">
+              <div className="flex items-center gap-4">
                 <span className="font-semibold">
                   {`${dictionary.page.home.skills.spokenLanguages}:`}
                 </span>
-                <div className="grow flex items-center justify-start gap-4">
+                <div className="grow flex items-center justify-start gap-8">
                   <div className="flex items-center gap-1">
                     <span className="font-medium">
                       {dictionary.page.home.skills.english}
@@ -207,11 +227,11 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                   </div>
                 </div>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-4">
                 <span className="font-semibold self-start shrink-0">
                   {`${dictionary.page.home.skills.programmingLanguages}:`}
                 </span>
-                <div className="grow flex items-center justify-start gap-x-4 flex-wrap">
+                <div className="grow flex items-center justify-start gap-x-8 gap-y-4 flex-wrap">
                   <div className="flex items-center gap-1">
                     <span className="font-medium">
                       Java
@@ -269,11 +289,11 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                   </div>
                 </div>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-4">
                 <span className="font-semibold">
                   {`${dictionary.page.home.skills.frameworks}:`}
                 </span>
-                <div className="grow flex items-center justify-start gap-4">
+                <div className="grow flex items-center justify-start gap-8">
                   <div className="flex items-center gap-1">
                     <span className="font-medium">
                       React
@@ -320,11 +340,11 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                   </div>
                 </div>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-4">
                 <span className="font-semibold">
                   {`${dictionary.page.home.skills.concepts}:`}
                 </span>
-                <div className="grow flex items-center justify-start gap-4">
+                <div className="grow flex items-center justify-start gap-8">
                   <div className="flex items-center gap-1">
                     <span className="font-medium">
                       OOP
@@ -371,11 +391,11 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                   </div>
                 </div>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-4">
                 <span className="font-semibold">
                   {`${dictionary.page.home.skills.tools}:`}
                 </span>
-                <div className="grow flex items-center justify-start gap-4">
+                <div className="grow flex items-center justify-start gap-8">
                   <div className="flex items-center gap-1">
                     <span className="font-medium">
                       Git

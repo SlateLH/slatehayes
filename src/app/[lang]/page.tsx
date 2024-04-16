@@ -108,6 +108,19 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                     <span>January 2020 - December 2023</span>
                   </div>
                   <ul className="list-disc ml-5">
+                    <li>Implemented features based on written requirements in Java, JavaScript, Ruby and more</li>
+                    <li>Worked with various code frameworks including React and Ruby on Rails</li>
+                    <li>Wrote unit tests, automation tests with WebdriverIO and BDD tests for APIs with Cucumber</li>
+                    <li>Updated Jenkins pipeline scripts using Groovy</li>
+                    <li>Wrote and reviewed technical designs, documents and investigations</li>
+                    <li>Participated in Agile and Scrum ceremonies: daily standup, backlog refinement, iteration planning, sprint retrospective, etc.</li>
+                    <li>Worked on various side projects to improve the QoL of engineers on the team including:
+                      <ul className="list-disc ml-5">
+                        <li>VisualStudio Code autocompletion extension for the Terra React UI library</li>
+                        <li>Chrome extension for story pointing using WebSockets</li>
+                        <li>GUI Docker client using the Python Docker SDK</li>
+                      </ul>
+                    </li>
                     <li>Mentored new hires in the DevAcademy program</li>
                   </ul>
                 </div>
@@ -117,7 +130,7 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                     <span>April 2019 - December 2019</span>
                   </div>
                   <ul className="list-disc ml-5">
-                    <li>Worked alongside support team to investigate and correct client issues and defects</li>
+                    <li>Worked alongside support teams to investigate and correct client issues and defects in Java, Cerner CCL, and more</li>
                     <li>Led package releases for break-fixes to correct defects and patch-backs to deliver enhancements to clients on older and legacy code levels</li>
                     <li>Investigated a critical defect affecting many clients and released a solution as well as cleanup scripts in client domains</li>
                   </ul>
@@ -180,10 +193,10 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                   </span>
                 </div>
                 <ul className="list-disc ml-5">
-                  <li>Association of Computing Machinery</li>
-                  <li>Kappa Mu Epsilon Mathematics Honor Society</li>
                   <li>Courses in Data Structures, Algorithms, Databases, Networking, Data Mining, Mobile Apps, Graphics, Parallel and Distributed Computing, Artificial Intelligence</li>
                   <li>Created a computer vision IoT middleware service for final project</li>
+                  <li>Association of Computing Machinery</li>
+                  <li>Kappa Mu Epsilon Mathematics Honor Society</li>
                 </ul>
               </div>
             </div>
@@ -383,10 +396,10 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                       CI / CD
                     </span>
                     <span className="text-sm">
-                      {dictionary.page.home.skills.advanced}
+                      {dictionary.page.home.skills.proficient}
                     </span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
-                      <path fillRule="evenodd" d="M11.47 2.47a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06l-6.22-6.22V21a.75.75 0 0 1-1.5 0V4.81l-6.22 6.22a.75.75 0 1 1-1.06-1.06l7.5-7.5Z" clipRule="evenodd" />
+                      <path fillRule="evenodd" d="M15.22 6.268a.75.75 0 0 1 .968-.431l5.942 2.28a.75.75 0 0 1 .431.97l-2.28 5.94a.75.75 0 1 1-1.4-.537l1.63-4.251-1.086.484a11.2 11.2 0 0 0-5.45 5.173.75.75 0 0 1-1.199.19L9 12.312l-6.22 6.22a.75.75 0 0 1-1.06-1.061l6.75-6.75a.75.75 0 0 1 1.06 0l3.606 3.606a12.695 12.695 0 0 1 5.68-4.974l1.086-.483-4.251-1.632a.75.75 0 0 1-.432-.97Z" clipRule="evenodd" />
                     </svg>
                   </div>
                 </div>

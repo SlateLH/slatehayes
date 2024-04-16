@@ -10,10 +10,27 @@
         "phone": "Telefone"
       },
       "workExperience": {
-        "title": "Experiência Profissional"
+        "title": "Experiência Profissional",
+        "features": "Implementei features de acordo com requirements em Java, JavaScript, Ruby entre outras linguagens",
+        "frameworks": "Trabalhei com diversos frameworks como React e Ruby on Rails",
+        "tests": "Escrevi testes unitários, testes automatizados com WebdriverIO e testes de BDD para APIs com Cucumber",
+        "jenkins": "Atualizei scripts de pipeline no Jenkins utilizando Groovy",
+        "tech": "Escrevi e revisei designs, documentos e investigações técnicos/as",
+        "scrum": "Trabalhei com desenvolvimento Agile e Scrum: daily, refinamentos de backlog, planning de iteração, sprint retrospective, etc.",
+        "qol": "Trabalhei em vários projetos de inovação para melhorar a QV dos engenheiros do time, incluindo:",
+        "vsCode": "Extensão de autocompletion no VisualStudio Code para a biblioteca do Terra React UI",
+        "chrome": "Extensão do Google Chrome para pointing stories com WebSockets",
+        "docker": "GUI Docker client utilizando o Python Docker SDK",
+        "mentor": "Fui mentor de novos contratados no programa DevAcademy"
       },
       "education": {
-        "title": "Educação"
+        "title": "Educação",
+        "computerScience": "Ciência de Computação",
+        "mathematics": "Matemática",
+        "courses": "Estudei Estruturas de Dados, Algoritmos, Bancos de Dados, Networking, Mineração de Dados, Aplicativos Móveis, Sistemas Gráficos, Computação Paralela e Distribuída e Inteligência Artificial",
+        "finalProject": "Criei um serviço de middleware de IoT de visão computacional para o projeto final",
+        "acm": "Associação de Máquinas de Computação - ACM",
+        "kme": "Sociedade de Honra de Matemática Kappa Mu Epsilon - KME"
       },
       "skills": {
         "title": "Habilidades",
@@ -29,7 +46,9 @@
         "tools": "Ferramentas"
       },
       "misc": {
+        "january": "Janeiro",
         "february": "Fevereiro",
+        "april": "Abril",
         "may": "Maio",
         "august": "Agosto",
         "december": "Dezembro"

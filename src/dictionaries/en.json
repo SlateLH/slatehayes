@@ -10,10 +10,27 @@
         "phone": "Phone"
       },
       "workExperience": {
-        "title": "Work Experience"
+        "title": "Work Experience",
+        "features": "Implemented features based on written requirements in Java, JavaScript, Ruby and more",
+        "frameworks": "Worked with various code frameworks including React and Ruby on Rails",
+        "tests": "Wrote unit tests, automation tests with WebdriverIO and BDD tests for APIs with Cucumber",
+        "jenkins": "Updated Jenkins pipeline scripts using Groovy",
+        "tech": "Wrote and reviewed technical designs, documents and investigations",
+        "scrum": "Participated in Agile and Scrum ceremonies: daily standup, backlog refinement, iteration planning, sprint retrospective, etc.",
+        "qol": "Worked on various side projects to improve the QoL of engineers on the team including:",
+        "vsCode": "VisualStudio Code autocompletion extension for the Terra React UI library",
+        "chrome": "Chrome extension for story pointing using WebSockets",
+        "docker": "GUI Docker client using the Python Docker SDK",
+        "mentor": "Mentored new hires in the DevAcademy program"
       },
       "education": {
-        "title": "Education"
+        "title": "Education",
+        "computerScience": "Computer Science",
+        "mathematics": "Mathematics",
+        "courses": "Courses in Data Structures, Algorithms, Databases, Networking, Data Mining, Mobile Apps, Graphics, Parallel and Distributed Computing and Artificial Intelligence",
+        "finalProject": "Created a computer vision IoT middleware service for final project",
+        "acm": "Association for Computing Machinery - ACM",
+        "kme": "Kappa Mu Epsilon Mathematics Honor Society - KME"
       },
       "skills": {
         "title": "Skills",
@@ -29,7 +46,9 @@
         "tools": "Tools"
       },
       "misc": {
+        "january": "January",
         "february": "February",
+        "april": "April",
         "may": "May",
         "august": "August",
         "december": "December"

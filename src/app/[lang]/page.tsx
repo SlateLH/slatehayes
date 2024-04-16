@@ -105,29 +105,30 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                 <div className="flex flex-col ml-4 mt-2">
                   <div className="flex gap-2">
                     <span className="font-semibold">Scheduling</span>
-                    <span>January 2020 - December 2023</span>
+                    <span>{`${dictionary.page.home.misc.january} 2020 - ${dictionary.page.home.misc.december} 2023`}</span>
                   </div>
                   <ul className="list-disc ml-5">
-                    <li>Implemented features based on written requirements in Java, JavaScript, Ruby and more</li>
-                    <li>Worked with various code frameworks including React and Ruby on Rails</li>
-                    <li>Wrote unit tests, automation tests with WebdriverIO and BDD tests for APIs with Cucumber</li>
-                    <li>Updated Jenkins pipeline scripts using Groovy</li>
-                    <li>Wrote and reviewed technical designs, documents and investigations</li>
-                    <li>Participated in Agile and Scrum ceremonies: daily standup, backlog refinement, iteration planning, sprint retrospective, etc.</li>
-                    <li>Worked on various side projects to improve the QoL of engineers on the team including:
+                    <li>{dictionary.page.home.workExperience.features}</li>
+                    <li>{dictionary.page.home.workExperience.frameworks}</li>
+                    <li>{dictionary.page.home.workExperience.tests}</li>
+                    <li>{dictionary.page.home.workExperience.jenkins}</li>
+                    <li>{dictionary.page.home.workExperience.tech}</li>
+                    <li>{dictionary.page.home.workExperience.scrum}</li>
+                    <li>{dictionary.page.home.workExperience.qol}</li>
+                    <li>
                       <ul className="list-disc ml-5">
-                        <li>VisualStudio Code autocompletion extension for the Terra React UI library</li>
-                        <li>Chrome extension for story pointing using WebSockets</li>
-                        <li>GUI Docker client using the Python Docker SDK</li>
+                        <li>{dictionary.page.home.workExperience.vsCode}</li>
+                        <li>{dictionary.page.home.workExperience.chrome}</li>
+                        <li>{dictionary.page.home.workExperience.docker}</li>
                       </ul>
                     </li>
-                    <li>Mentored new hires in the DevAcademy program</li>
+                    <li>{dictionary.page.home.workExperience.mentor}</li>
                   </ul>
                 </div>
                 <div className="flex flex-col ml-4 mt-2">
                   <div className="flex gap-2">
                     <span className="font-semibold">Production Engineering</span>
-                    <span>April 2019 - December 2019</span>
+                    <span>{`${dictionary.page.home.misc.april} 2019 - ${dictionary.page.home.misc.december} 2019`}</span>
                   </div>
                   <ul className="list-disc ml-5">
                     <li>Worked alongside support teams to investigate and correct client issues and defects in Java, Cerner CCL, and more</li>
@@ -183,20 +184,20 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                 </div>
                 <div className="flex items-center gap-2 text-sm">
                   <span className="font-semibold">
-                    Computer Science
+                    {dictionary.page.home.education.computerScience}
                   </span>
                   <span>
-                    Mathematics
+                    {dictionary.page.home.education.mathematics}
                   </span>
                   <span>
                     3.96 GPA
                   </span>
                 </div>
                 <ul className="list-disc ml-5">
-                  <li>Courses in Data Structures, Algorithms, Databases, Networking, Data Mining, Mobile Apps, Graphics, Parallel and Distributed Computing, Artificial Intelligence</li>
-                  <li>Created a computer vision IoT middleware service for final project</li>
-                  <li>Association of Computing Machinery</li>
-                  <li>Kappa Mu Epsilon Mathematics Honor Society</li>
+                  <li>{dictionary.page.home.education.courses}</li>
+                  <li>{dictionary.page.home.education.finalProject}</li>
+                  <li>{dictionary.page.home.education.acm}</li>
+                  <li>{dictionary.page.home.education.kme}</li>
                 </ul>
               </div>
             </div>

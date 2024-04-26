@@ -131,9 +131,9 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                     <span>{`${dictionary.page.home.misc.april} 2019 - ${dictionary.page.home.misc.december} 2019`}</span>
                   </div>
                   <ul className="list-disc ml-5">
-                    <li>Worked alongside support teams to investigate and correct client issues and defects in Java, Cerner CCL, and more</li>
-                    <li>Led package releases for break-fixes to correct defects and patch-backs to deliver enhancements to clients on older and legacy code levels</li>
-                    <li>Investigated a critical defect affecting many clients and released a solution as well as cleanup scripts in client domains</li>
+                    <li>{dictionary.page.home.workExperience.support}</li>
+                    <li>{dictionary.page.home.workExperience.package}</li>
+                    <li>{dictionary.page.home.workExperience.clients}</li>
                   </ul>
                 </div>
               </div>
@@ -150,10 +150,10 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                   {`${dictionary.page.home.misc.may} 2018 - ${dictionary.page.home.misc.august} 2018`}
                 </div>
                 <span className="text-sm font-semibold">
-                  Summer Software Engineer Intern
+                  {dictionary.page.home.workExperience.summer}
                 </span>
                 <ul className="list-disc ml-5">
-                  <li>Created a reusable performance indicator component on the Supply Chain team with React and Ruby on Rails</li>
+                  <li>{dictionary.page.home.workExperience.intern}</li>
                 </ul>
               </div>
             </div>

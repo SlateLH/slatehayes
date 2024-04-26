@@ -21,7 +21,12 @@
         "vsCode": "Extensão de autocompletion no VisualStudio Code para a biblioteca do Terra React UI",
         "chrome": "Extensão do Google Chrome para pointing stories com WebSockets",
         "docker": "GUI Docker client utilizando o Python Docker SDK",
-        "mentor": "Fui mentor de novos contratados no programa DevAcademy"
+        "mentor": "Fui mentor de novos contratados no programa DevAcademy",
+        "support": "Trabalhei com times de suporte para investigar e corrigir issues e bugs de clientes em Java, Cerner CCL entre outras linguagens",
+        "package": "Coordinei lançamentos de break-fixes para corrigir problemas e patch-backs para entregar features para clientes com versões de código mais antigos e legacy",
+        "clients": "Investiguei um bug grave que afetou vários clientes e desenvolvi uma solução e scripts clean-up nos ambientes dos clientes afetados",
+        "summer": "Estagiário como engenheiro de software no programa de verão",
+        "intern": "Desenvolvi um componente reutilizável de indicador de performance no time de Supply Chain utilizando React e Ruby on Rails"
       },
       "education": {
         "title": "Educação",
